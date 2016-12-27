@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>I'm Pavel.</title>
-  <subtitle>I'm an engineer and I make things happen.</subtitle>
+  <title>I'm Pavel.: writing</title>
+  <subtitle>Posts tagged with writing</subtitle>
   <id>http://alovak.com</id>
   <link href="http://alovak.com"/>
-  <link href="http://alovak.com/feed.xml" rel="self"/>
+  <link href="http://alovak.com/tag/writing/feed.xml" rel="self"/>
   <updated>2016-12-28T03:00:00+03:00</updated>
   <author>
     <name>Pavel Gabriel</name>
