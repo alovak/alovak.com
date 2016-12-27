@@ -78,6 +78,8 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-gh-pages (0.3.1)
+      rake (> 0.9.3)
     middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -103,6 +105,7 @@ GEM
     rack (2.0.1)
     rack-livereload (0.3.16)
       rack
+    rake (11.3.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -128,6 +131,7 @@ DEPENDENCIES
   builder (~> 3.2.2)
   middleman (~> 4.0)
   middleman-blog (~> 4.0)
+  middleman-gh-pages
   middleman-livereload
   middleman-sprockets (~> 4.0.0)
   middleman-syntax (~> 3.0.0)
