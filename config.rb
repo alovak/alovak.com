@@ -5,8 +5,8 @@
 config[:casper] = {
   blog: {
     url: 'http://alovak.com',
-    name: "I'm Pavel.",
-    description: "I'm an engineer and I make things happen.",
+    name: "I'm Pavel",
+    description: "I'm an engineer and I make things happen",
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
