@@ -6,6 +6,7 @@ layout: post
 
 I'm continuously looking for an information to draw my map of a CTO land. So far I have found 3 big parts of it: Culture, Technology and Operations. READMORE
 
+
 ## Culture
 
 I know that people are the key to success or failure for any project. Thus, Culture is the main area I should pay attention to.
@@ -23,5 +24,7 @@ What about writing code? I do prototyping, testing new solutions, writing proof-
 Operations are about how and how well we do and deliver things. It's about portfolio/project/product management, processes, collecting data and metrics, measure and report results, implement improvements.
 
 In my practice, it's usually adding transparency and visibility to processes and data. Like a scrum/kanban boards, displays with metrics, etc.
+
+![CTO Land](/images/cto-land.jpg)
 
 I'm going to focus on this three areas in the nearest time in a sense of learning and doing. Having a map helps me move forward with less fear and more energy.
