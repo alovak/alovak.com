@@ -4,8 +4,9 @@ tags: cto, culture, technology, operations
 layout: post
 ---
 
-I'm continuously looking for an information to draw my map of a CTO land. So far I have found 3 big parts of it: Culture, Technology and Operations. READMORE
+I'm continuously looking for an information to draw my map of a CTO land. So far I have discovered 3 big parts of it: Culture, Technology and Operations. READMORE
 
+<img src="/images/cto-land.png" alt="CTO Land" style="width: 400px;"/>
 
 ## Culture
 
@@ -25,6 +26,5 @@ Operations are about how and how well we do and deliver things. It's about portf
 
 In my practice, it's usually adding transparency and visibility to processes and data. Like a scrum/kanban boards, displays with metrics, etc.
 
-![CTO Land](/images/cto-land.jpg)
 
 I'm going to focus on this three areas in the nearest time in a sense of learning and doing. Having a map helps me move forward with less fear and more energy.
