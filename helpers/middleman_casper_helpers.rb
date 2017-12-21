@@ -77,12 +77,13 @@ module MiddlemanCasperHelpers
   end
 
   def cover(page = current_page)
-    if (src = page.data.cover).present?
-      { style: "background-image: url(#{image_path(src)})" }
-    else
+    # if (src = page.data.cover).present?
+    #   { style: "background-image: url(#{image_path(src)})" }
+    # else
       { class: 'no-cover' }
-    end
+    # end
   end
+
   def cover?(page = current_page)
     page.data.cover.present?
   end
