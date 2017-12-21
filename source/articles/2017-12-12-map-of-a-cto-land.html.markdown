@@ -25,6 +25,6 @@ What about writing code? I ask myself this question when I have to shift from co
 
 Operations are about how and how well we do and deliver things. It's about portfolio/project/product management, processes, collecting data and metrics, measure and report results, implement improvements.
 
-In my practice, it's usually achived or at least started from finding the flows, adding transparency and visibility to processes and data.
+In my practice, it's usually achived by finding the flows, adding transparency and visibility to processes and data.
 
 Having a map helps me to move forward with less fear and more energy.
