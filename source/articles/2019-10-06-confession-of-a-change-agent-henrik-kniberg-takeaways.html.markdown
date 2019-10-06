@@ -22,7 +22,7 @@ As a change agent you will always have more things to improve than you physicall
 
 ## #4 Ask good (stupid) questions
 
-As outsider or a newcomer you may see situation differently. You may find people following some rituals that are already irrelevant. Or they may discuss a topic without common ground and so on. Asking questions (sometimes essential) without the fear to look awkward may be beneficial. Here is feedback I got:
+As outsider or a newcomer you may see situation differently. You may find people following some rituals that are already irrelevant. Or they may discuss a topic without common ground and so on. Asking questions (sometimes essential) without the fear to look awkward may be beneficial. Here is the feedback on me asking questions:
 
 - you help to look at things from the different angles we have not thought about
 - you ask challenging questions
