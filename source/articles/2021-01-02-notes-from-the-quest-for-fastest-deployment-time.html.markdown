@@ -5,7 +5,7 @@ tags: devops, engineering, operations
 layout: post
 ---
 
-What an awesome talk! I'm trying to ask myself why I'm so excited about it? What triggers my excitement? The answer is pretty simple. L Körbes in her talk "[The Quest for the Fastest Deployment Time](https://www.youtube.com/watch?v=WgliN_9j91g&list=PL2ntRZ1ySWBfUint2hCE1JRxRWChloasB&index=16)" (from [GopherCon 2020](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBfUint2hCE1JRxRWChloasB)) shows how to decrease the time I (and many developers) waste by waiting... In other words, she makes our lives longer by giving us back lost time so we can think and do something important in our life. Thanks a lot! Also, this talk is a pleasure to watch. Great content, unusual production (switching cameras and perspectives), live coding, and jokes!
+What an awesome talk! I'm trying to ask myself why I'm so excited about it? What triggers my excitement? The answer is pretty simple. [L Körbes](https://twitter.com/ellenkorbes) in her talk "[The Quest for the Fastest Deployment Time](https://www.youtube.com/watch?v=WgliN_9j91g&list=PL2ntRZ1ySWBfUint2hCE1JRxRWChloasB&index=16)" (from [GopherCon 2020](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBfUint2hCE1JRxRWChloasB)) shows how to decrease the time I (and many developers) waste by waiting... In other words, she makes our lives longer by giving us back lost time so we can think and do something important in our life. Thanks a lot! Also, this talk is a pleasure to watch. Great content, unusual production (switching cameras and perspectives), live coding, and jokes!
 
 While watching the talk I remembered how I measured the time to deploy **Ruby** service to AWS ECS/Fargate (in production). It was for 2 minutes!
 <center>
