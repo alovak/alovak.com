@@ -35,6 +35,6 @@ Specifics:
 - live update → do not rebuild/replace your docker container, just update the code and recompile inside container (using something like [entr](https://github.com/eradman/entr) to track file changes and run compiler when they change). Live compilation is not really good for production (because of security, build tooling inside your image, etc.)
 - do not use the previous point if you don't have enough CPU (and memory) to compile fast :D Instead, compile locally an live update with binary
 - when you send over the wire, reduce the size of the payload (your binary) → remove debugging data to make Go binaries smaller and/or
-- use [UPX](https://github.com/upx/upx) (the Ultimate Packer for eXecutables) to compress your binary. This works for remote cluster. With compressing binary you lose on packing time which is important for your local clustiner, but win on uploading time which is crucial for remove clustiner.
+- use [UPX](https://github.com/upx/upx) (the Ultimate Packer for eXecutables) to compress your binary. This works for remote cluster. With compressing binary you lose on packing time which is important for your local cluster, but win on uploading time which is crucial for remote cluster.
 
 [*]: follow your definition of DONE :)
