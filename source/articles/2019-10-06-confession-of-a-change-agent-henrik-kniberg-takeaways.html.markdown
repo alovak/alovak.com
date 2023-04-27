@@ -4,6 +4,7 @@ title: >
 date: 2019-10-06
 tags: agile, coachig, conference, takeaways, notes
 layout: post
+public: true
 ---
 
 In engaging and refreshing talk ["Confessions of a Change Agent"](https://youtu.be/c1W6U2duXdI) Henrik Kniberg shares his lessons and stories of working as a change agent (agile coach). I decided to take some notes and share it with you.

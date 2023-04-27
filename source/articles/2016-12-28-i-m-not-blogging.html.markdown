@@ -3,6 +3,7 @@ title: I'm not blogging
 date: 2016-12-28
 tags: writing
 layout: post
+public: true
 ---
 
 I have tried blogging multiple times. But without success. It's difficult for me

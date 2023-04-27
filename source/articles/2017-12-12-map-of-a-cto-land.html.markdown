@@ -3,6 +3,7 @@ title: Map of a CTO land
 tags: cto, culture, technology, operations
 cover: '/images/cto-land.png'
 layout: post
+public: true
 ---
 
 I have worked as a CTO in startups doing different things and working on different areas of product and company. I'm continuously looking for information to draw my map of a CTO land. In this way I structure my experience and knowledge to find gaps there. So far I have found 3 big parts of it: Culture, Technology and Operations. READMORE

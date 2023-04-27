@@ -1,4 +1,4 @@
-articles ||= blog.articles[0..5]
+articles ||= blog.articles[0..5].select {|a| a.data[:public] }
 tagname ||= nil
 title = config.casper[:blog][:name]
 subtitle = config.casper[:blog][:description]

@@ -3,6 +3,7 @@ title: Stop before you start new journey
 date: 2017-11-19
 tags: life, work
 layout: post
+public: true
 ---
 
 I don't know how to start this post… It's time for me to move forward. But it seems I have been moving forward my whole career :) Maybe it's time to switch? All right. It's definitely time to do something new and different.

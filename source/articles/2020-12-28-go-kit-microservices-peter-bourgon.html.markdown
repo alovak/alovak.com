@@ -3,6 +3,7 @@ title: "Notes: Go + Microservices = Go Kit by Peter Bourgon"
 date: 2020-12-28
 tags: microservices, go
 layout: post
+public: true
 ---
 
 Peter Bourgon in his talk [Go + Microservices = Go Kit](https://www.youtube.com/watch?v=NX0sHF8ZZgw&t=1075s) explains and shows how [Go Kit](https://github.com/go-kit/kit) helps with building microservices and making them production ready. Here are my notes:
