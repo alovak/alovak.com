@@ -8,3 +8,13 @@ pre.highlight {
     white-space: pre;
   }
 }
+
+.small-table + table {
+	// max-width: 710px;
+	font-size: 0.7em;
+}
+pre.highlight {
+// .highlight {
+  font-size: 1.4rem;
+  line-height: 1.3em;
+}
