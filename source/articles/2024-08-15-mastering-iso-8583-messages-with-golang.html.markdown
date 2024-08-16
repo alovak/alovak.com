@@ -414,7 +414,7 @@ F2   Primary Account Number (PAN)...: 4242****4242
 F3   Amount.........................: 1000
 F4   Transmission Date & Time.......: 240812160140
 F7   Currency.......................: 840
-F8   Card Verification Value (CVV)..: 7***
+F8   Card Verification Value (CVV)..: 7890
 F9   Card Expiration Date...........: 2512
 F10  Acceptor Information SUBFIELDS:
 -------------------------------------------
@@ -428,7 +428,29 @@ PASS
 ok      github.com/alovak/cardflow-playground/examples  1.031s
 ```
 
-What a nice structured view! You can output it into the log or any `io.Writer` and store it if you need. Be sure to configure the filters to remove sensitive information from the output. As you can see, the helper filters some known fields (such as PAN) by default.
+What a nice structured view! You can output it into the log or any `io.Writer` and store it if you need. As you can see, the helper filters some known fields (such as PAN) by default. You can also pass a custom filter to the `Describe` function to filter out fields you don’t want to see. Here is how you can do it:
+
+```go
+// to make it right, let's filter the value of CVV field when we output it
+filterCVV := iso8583.FilterField("8", iso8583.FilterFunc(func(in string, data field.Field) string {
+    if len(in) == 0 {
+        return in
+    }
+    return in[0:1] + strings.Repeat("*", len(in)-1)
+}))
+
+// don't forget to apply default filter
+filters := append(iso8583.DefaultFilters(), filterCVV)
+
+err = iso8583.Describe(requestMessage, os.Stdout, filters...)
+require.NoError(t, err)
+```
+
+Now, the output for the CVV filed will look like this:
+
+```bash
+F8   Card Verification Value (CVV)..: 7***
+```
 
 ## Summary
 
