@@ -434,4 +434,7 @@ What a nice structured view! You can output it into the log or any `io.Writer` a
 
 Getting the hang of ISO 8583 messaging in Golang can seem pretty daunting at first, but with the right approach, it's totally doable. In this article, we broke down how to take an ISO 8583 spec and turn it into Golang code, build and parse those tricky binary messages, and even validate your work against examples. With the iso8583 Golang package, along with some practical tips on testing and troubleshooting, you’re well-equipped to tackle ISO 8583 in your Golang projects.
 
-If you found this guide helpful, or if you have any questions or suggestions, I'd love to hear from you! Feel free to check out the tests in the [moov-io/iso8583](https://github.com/moov-io/iso8583/) package for more advanced examples or even contribute by posting issues or PRs on [GitHub](https://github.com/moov-io/iso8583).
+Feel free to check out the tests in the [moov-io/iso8583](https://github.com/moov-io/iso8583/) package for more advanced examples or even contribute by posting issues or PRs on [GitHub](https://github.com/moov-io/iso8583).
+
+If you found this guide helpful, or if you have any questions or suggestions, I’d love to hear from you! You can reach out to me on [LinkedIn](https://www.linkedin.com/in/pavelgabriel/) or find me in the [#iso8583](https://moov-io.slack.com/archives/C014UT7C3ST) channel of the Moov Financial community Slack.
+
