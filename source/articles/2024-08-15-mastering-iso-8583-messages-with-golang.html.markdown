@@ -1,11 +1,13 @@
 ---
 title: "Mastering ISO 8583 messages with Golang"
-date: 2024-08-01
+date: 2024-08-15
 tags: engineering, payments, iso8583, golang
 layout: post
 public: true
 ---
         
+As the author and maintainer of the [moov-io/iso8583](https://github.com/moov-io/iso8583) package, who has built direct integrations and passed certifications with most card networks (Visa, Mastercard, Discover and Amex), I want to share my hands-on experience with other engineers. If you're curious about how card processing works behind the scenes and want to explore it from a code perspective, this guide is for you.
+
 When you integrate with card networks or payment providers using ISO 8583, you typically receive a hefty PDF document, often hundreds of pages long,  that outlines message flows, message format, how fields are encoded, the purpose of each field, and more. Understanding these specifications and generating correct messages can be a daunting task.
 
 The goal of this guide is to show you how to convert an ISO 8583 **message specification** into Go code and how to build and parse binary messages using the [moov-io/iso8583](https://github.com/moov-io/iso8583/) package. You'll also see how to validate the correctness of the specification Go code and how to troubleshoot issues. Aspects such as message flows, message or network headers, TCP connections, etc., are beyond the scope of this document. 
@@ -303,7 +305,7 @@ require.Equal(t, "https://www.merchant.com", authorizationRequest.AcceptorInform
 require.Equal(t, "000001", authorizationRequest.STAN)
 ```
 
-By doing so, we can be sure that our specification works in both directions. I’ve experienced cases where it works only one way. Having such a test removes any doubts.
+By doing so, we can be sure that our specification works in both directions and that there are no differences in the field values or binary values. I’ve encountered rare cases where discrepancies might occur, especially when using custom code or expecting padded values. Having such a test removes any doubts.
 
 ## Checking the Correctness of the Spec
 
@@ -412,7 +414,7 @@ F2   Primary Account Number (PAN)...: 4242****4242
 F3   Amount.........................: 1000
 F4   Transmission Date & Time.......: 240812160140
 F7   Currency.......................: 840
-F8   Card Verification Value (CVV)..: 7890
+F8   Card Verification Value (CVV)..: 7***
 F9   Card Expiration Date...........: 2512
 F10  Acceptor Information SUBFIELDS:
 -------------------------------------------
