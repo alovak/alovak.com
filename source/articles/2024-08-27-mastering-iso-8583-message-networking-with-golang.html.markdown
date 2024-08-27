@@ -175,7 +175,7 @@ type Client struct {
 	// requestsChan is the channel where the requests are sent to the write loop
 	requestsChan chan Request
 
-	// mu is the mutex that protects the pendingRequests map
+	// mu is the mutex that protects the pendingResponses map
 	mu sync.Mutex
 
 	// pendingResponses is the map that holds the pending responses
