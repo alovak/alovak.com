@@ -6,7 +6,7 @@ config[:casper] = {
   blog: {
     url: 'http://alovak.com',
     name: "Pavel Gabriel",
-    description: "I'm an engineer and I make things happen",
+    description: "Engineer | Thinker | Builder<br><small>Simplifying complexity, challenging norms, and crafting elegant solutions.</small>",
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
@@ -20,7 +20,8 @@ config[:casper] = {
     twitter: nil # Optional
   },
   navigation: {
-    "Home" => "/"
+    "Blog" => "/",
+    "About me" => "/about/"
   }
 }
 
@@ -68,8 +69,13 @@ tags.each do |tagname, articles|
     locals: { tagname: tagname, articles: articles[0..5] }, layout: false
 end
 
-proxy "/author/#{config.casper[:author][:name].parameterize}.html",
-  '/author.html', ignore: true
+page '/about/index.html', layout: :page
+
+# page "/about/*", layout: :hello
+# proxy "/author/#{config.casper[:author][:name].parameterize}.html",
+#   '/author.html', ignore: true
+
+# proxy "/about", '/about.html', ignore: true
 
 # General configuration
 # Reload the browser automatically whenever files change
@@ -146,3 +152,4 @@ configure :build do
   ignore 'stylesheets/_*'
   ignore 'stylesheets/vendor/*'
 end
+
