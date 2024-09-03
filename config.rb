@@ -69,7 +69,7 @@ tags.each do |tagname, articles|
     locals: { tagname: tagname, articles: articles[0..5] }, layout: false
 end
 
-page '/about/index.html', layout: :page
+page '/about/index.html', layout: :about
 
 # page "/about/*", layout: :hello
 # proxy "/author/#{config.casper[:author][:name].parameterize}.html",
