@@ -13,7 +13,7 @@ config[:casper] = {
   },
   author: {
     name: 'Pavel Gabriel',
-    bio: nil, # Optional
+    bio: 'Engineer working on payment processing and card networks. <a href="/about/">More about me &rarr;</a>',
     location: nil, # Optional
     website: nil, # Optional
     gravatar_email: nil, # Optional

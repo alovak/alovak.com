@@ -103,9 +103,6 @@ module MiddlemanCasperHelpers
   def facebook_url
     "https://www.facebook.com/sharer/sharer.php?u=#{current_article_url}"
   end
-  def google_plus_url
-    "https://plus.google.com/share?url=#{current_article_url}"
-  end
 
   def feed_path
     if is_tag_page?
@@ -118,7 +115,7 @@ module MiddlemanCasperHelpers
     "#{blog.options.prefix.to_s}/"
   end
   def author_path
-    "#{blog.options.prefix.to_s}/author/#{blog_author.name.parameterize}/"
+    "#{blog.options.prefix.to_s}/about/"
   end
 
   def og_type
